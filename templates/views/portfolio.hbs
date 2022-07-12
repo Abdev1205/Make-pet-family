@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Abhay-Web Developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/port-media.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <!-- Linking bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" />
+
+
+    <link rel="javascript" href="script.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0-1/css/all.min.css"
+        integrity="sha512-xEGx3E22YcUzfX525T3KV7SqNexb09E2CckB6lBB/dT930VlbSX9JnQlLiogtSLAl9yGAJGKDu7O1ZanrqljGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"
+        integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Make Pet Family</title>
+
+    <!-- linking bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+        </script>
+</head>
+
+
+<body onload="render()">
+    <div id="loading" style="position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('css/images/loader.gif')
+	 no-repeat center center;	
+	z-index: 99999;">
+
+    </div>
+
+    <section id="home">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light navbarScroll ">
+            <div class="container nav-container">
+
+
+                <div id="stop-hover-port-brand" class="brand">
+
+                    <a id="stop-hover-port-brand" class="navbar-brand " href="/portfolio">Abhay</a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="stop-hover-port" class="navbar-nav ms-auto">
+                        <li>
+
+                        </li>
+
+                        <li class="nav-item ">
+                            <a id="nav-down-link" class="nav-link" href="/portfolio">Home</a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a id="nav-down-link" class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a id="nav-down-link" class="nav-link" href="#projects">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a id="nav-down-link" class="nav-link" href="#services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a id="nav-down-link" class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- main banner -->
+        <section class="my-main-page" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h2 id="hero-title" class="hero_title">Hi, it's me <strong>Abhay</strong></h2>
+                        <p id="hero-desc" class="hero_desc">I am <strong>Full Stack Web Developer</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section-->
+        <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;" class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img id="my-image" src="css/images/profile-circle.png" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Hi, It's me, <strong>Abhay Mishra</strong>. I am currently 2nd year student at <strong>Vellore Institute of Technology Bhopal</strong>. I am doing Btech in Computer Science and Engineering though I aim to become a good <strong>Software Engineer</strong> and make lots of Cool software 
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name:- <strong>Abhay Mishra</strong></li>
+                                <li>Age:- 19</li>
+                                <li>profession:- student</li>
+                                <li>Aim:- <strong>Software Engineer</strong></li>
+
+                            </ul>
+                            <H2 style="align-content: center; font-family: Georgia, 'Times New Roman', Times, serif;">Education Qualification</H2>
+                            <ul>
+                                <li>I completed My CBSE 10th board in 2019 from St.Thomas Public School and secured 81% &#128557</li>
+                                <li>For My Higher Education I moved to DAV Public School for my 11th and 12th &#128526	</li>
+                                <li>I have studied Python language in my 11th and 12th from which my programming journey has started &#128522</li>
+                                <li>I completed my Cbse 12th Board in 2021 from DAV Public School and secured 89% &#128567</li>
+                            </ul>
+                            <h7 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size:1.5rem;">Programming Language / Libraray / Framework (studied/studying)</h7>
+                            <ol>
+                                <li>Python</li>
+                                <li>c language</li>
+                                <li>c++</li>
+                                <li>Html</li>
+                                <li>Css</li>
+                                <li>Bootstrap</li>
+                                <li>javascript</li>
+                                <li>jquery</li>
+                                <li>Node-js</li>
+                                <li>Express-js</li>
+                                <li>Mongodb</li>
+                                <li>React(little bit)</li>
+                            </ol>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+            </div>
+    </section>
+
+    {{!-- project --}}
+
+    <section id="project">
+            <div class="container">
+                <h1 class="text-center">Project</h1>
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class="far servicesIcon fa-check-circle"></i>
+                                <h4 class="card-title mt-3">Portfolio Website</h4>
+                                <p class="card-text mt-3"> This is 2.0 version of my Portfolio
+                                </p>
+                                <a href="/portfolio">
+
+                <div class="normal-button ">
+
+
+                  take a look
+
+                  <i class="fa fa-arrow-right"></i>
+                </div>
+              </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='far servicesIcon fa-check-circle'></i>
+                                <h4 class="card-title mt-3">Make Pet Family </h4>
+                                <p class="card-text mt-3">This project is devoted to homeless,ownerless pet who are struggling for food.This website consist of Adoption, Donation, buy and sell of pets 
+                                </p>
+                                <a href="/index">
+
+                <div class="normal-button ">
+
+
+                  Take a look 
+
+                  <i class="fa fa-arrow-right"></i>
+                </div>
+              </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='far servicesIcon fa-check-circle'></i>
+                                <h4 class="card-title mt-3">Javascript Game </h4>
+                                <p class="card-text mt-3">In this Project i am going to make snake ladder game using javascript
+                                </p>
+
+                                <a href="/under">
+
+                <div class="normal-button ">
+
+
+                  take a look
+
+                  <i class="fa fa-arrow-right"></i>
+                </div>
+              </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- services section-->
+        <section id="services">
+            <div class="container">
+                <h1 class="text-center">Services</h1>
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class="far servicesIcon fa-check-circle"></i>
+                                <h4 class="card-title mt-3">Website Development</h4>
+                                <p class="card-text mt-3">I can Develop a FulL stack (e-commerce) type Website which use HTML, CSS (Bootstrap),javascript ,jquery in frontend part and Node-js,Express-js,mongoose,mongodb in backend part 
+                                    for any Business, organization, etc. Give me a chance to showcase my skill
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='fas servicesIcon fa-layer-group'></i>
+                                <h4 class="card-title mt-3">Website Design</h4>
+                                <p class="card-text mt-3">I can design a Website using HTML, CSS,Bootstrap javascript and jquery for any
+                                    Business, organization, etc.(Frontend)
+                                    Give me a chance to showcase my knowledge, skill, and hard work to My respected
+                                    Clients
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='far servicesIcon fa-check-circle'></i>
+                                <h4 class="card-title mt-3">Promotion | Sponsor</h4>
+                                <p class="card-text mt-3">I can promote any product through My youtube Channel and Blog
+                                    website and increase product sale and profit of Company. For Promotion Contact me
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='fas servicesIcon fa-search'></i>
+                                <h4 class="card-title mt-3">Youtube Channel (Tech)</h4>
+                                <script src="https://apis.google.com/js/platform.js"></script>
+
+                                <div style="text-align: center;" class="g-ytsubscribe"
+                                    data-channelid="UCqXInWxeQgJPOlOpVpuJmxA" data-layout="full" data-theme="default"
+                                    data-count="default"></div>
+                                <p class="card-text mt-3">Subscribe to my Youtube Channel for more updates
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='fas servicesIcon fa-shield-alt'></i>
+                                <h4 class="card-title mt-3">Youtube Channel (Gaming)</h4>
+                                <script src="https://apis.google.com/js/platform.js"></script>
+
+                                <div style="text-align: center;" class="g-ytsubscribe"
+                                    data-channelid="UCLMWrG4qUh3T76f88rHh46A" data-layout="full" data-theme="default"
+                                    data-count="default"></div>
+                                <p class="card-text mt-3">Subscribe to my Youtube Channel for more updates
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='fas servicesIcon fa-wrench'></i>
+                                <h4 class="card-title mt-3">QA</h4>
+                                <p class="card-text mt-3">If any One want to ask any question to me, contact me
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- contact section-->
+        </section>
+
+  <section  id="contact-form">
+    
+    
+    <div style="margin-top: 4rem;"id="Form-1" class="form_wrapper">
+  <div class="form_container">
+    <div class="title_container">
+      <h2>Contact</h2>
+    </div>
+    <div class="row clearfix">
+      <div class="">
+        <form action="/contact" method="POST">
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="row clearfix">
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="first" placeholder="First Name" required />
+              </div>
+            </div>
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="last" placeholder="Last Name" required />
+              </div>
+            </div>
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="text" name="phone" placeholder="Phone" required />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-home"></i></span>
+            <input type="text" name="address" placeholder="Address" required />
+          </div>
+          <div class="row clearfix">
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-city"></i></span>
+                <input type="text" name="city" placeholder="City" required />
+              </div>
+            </div>
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-city"></i></span>
+                <input type="text" name="state" placeholder="State" required />
+              </div>
+            </div>
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-earth-americas"></i></span>
+            <input type="text" name="country" placeholder="Country" required />
+          </div>
+          <div class="input_field"> 
+            <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Tell us your queries" ></textarea>
+                        </div>
+          </div>
+            	
+              
+            
+          <input type="submit" class="button" style="color: black;" value="Submit" />
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </section>
+        
+        <!-- footer section-->
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted footer">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer-social">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block ">
+                    <span class="logo-text">Get connected with me on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div class="social-logo">
+                    <a href="https://www.facebook.com/profile.php?id=100067140832883" target="_blank"
+                        class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/abhay_desire_yt/" target="_blank" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ab-ideas-9669711b5/" target="_blank" class="me-4 text-reset">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Abdev1205" target="_blank" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="footer-content">
+                <div class="container text-center text-md-start mt-5 footer-content-start">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4 abhay">
+                                <i class="fas fa-user-tie font-awesome-abhay"></i> Abhay Mishra
+                            </h6>
+
+                            <p class="stack">
+                                Full Stack Mern Web Developer
+                            </p>
+
+                            <p>
+                                <a href="#" target="_blank" style="text-decoration: none;" class="text-reset">About
+                                    Me</a>
+                            </p>
+
+                            <p>
+                                <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank"
+                                    style="text-decoration: none;" class="text-reset">Portfolio Website</a>
+                            </p>
+
+                            <p>
+                                <a href="#" target="_blank" style="text-decoration: none;" class="text-reset">Resume</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Projects
+                            </h6>
+                            <p>
+                                <a href="/portfolio" style="text-decoration: none;" class="text-reset">Portfolio
+                                    Website</a>
+                            </p>
+                            <p>
+                                <a href="index" style="text-decoration: none;" class="text-reset">Make Pet Family</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;" class="text-reset">Coming Soon</a>
+                            </p>
+                            <p>
+                                <a href="#!" style="text-decoration: none;" class="text-reset">Coming Soon</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                                    target="_blank" style="text-decoration: none;" class="text-reset">Wed Development
+                                    Course</a>
+                            </p>
+                            <p>
+                                <a href="https://stackoverflow.com/" target="_blank" style="text-decoration: none;"
+                                    class="text-reset">Rectify your error</a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/" target="_blank" style="text-decoration: none;"
+                                    class="text-reset">Programmers Community</a>
+                            </p>
+                            <p>
+                                <a href="https://www.google.com/" target="_blank" style="text-decoration: none;"
+                                    class="text-reset">Best
+                                    Source for programmer</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contact
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> Korba Chattisgarh India 495452</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i><a
+                                    href="mailto:abhay.mishra2021@vitbhopal.ac.in?subject = Feedback&body = Message"
+                                    target="_blank" style="text-decoration: none; color:#7e7e7e;">My Email
+
+                            </p>
+
+
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center footer-copyright p-4">
+                <span class="c">
+                    <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank"
+                        style="text-decoration: none;" class="text-reset">© 2021 Copyright:</a>
+
+                </span>
+                <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank"
+                    style="text-decoration: none;" class="text-reset">Abhay Mishra</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+
+
+
+        <script>
+
+            var preloader = document.getElementById("loading");
+
+            function render() {
+                preloader.style.display = 'none';
+            }
+        </script>
+
+        <script>
+            var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+            var rootElement = document.documentElement;
+
+            function scrollToTop() {
+                // Scroll to top logic
+                rootElement.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+            scrollToTopBtn.addEventListener("click", scrollToTop);
+        </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

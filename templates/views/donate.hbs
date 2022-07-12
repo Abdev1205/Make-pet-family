@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Linking bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" />
+  <!-- linking simple css -->
+  <link rel="stylesheet" href="css/reg.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+
+  <title>Make Pet Family</title>
+
+
+</head>
+
+
+<body onload="render()">
+  <div id="loading" style="position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('css/images/loader.gif')
+	 no-repeat center center;	
+	z-index: 99999;">
+
+  </div>
+
+  {{>navbar}}
+
+
+  </section>
+
+  <section id="motivation-thought" class="c-wrapper">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div id="carousel-inner2" class="carousel-inner">
+        <div id="carousel-item2" class="carousel-item active" data-bs-interval="5000">
+          <img src="css/images/c-dog-3_cleanup11.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div id="carousel-item2" class="carousel-item" data-bs-interval="5000">
+          <img src="css/images/c-dog-4_cleanup.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div id="carousel-item2" class="carousel-item" data-bs-interval="5000">
+          <img src="css/images/c-dog-5_cleanup.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div id="carousel-item2" class="carousel-item" data-bs-interval="5000">
+          <img src="css/images/c-dog-6_cleanup.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div id="carousel-item2" class="carousel-item" data-bs-interval="5000">
+          <img src="css/images/c-dog-7_cleanup.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div id="carousel-item2" class="carousel-item" data-bs-interval="5000">
+          <img src="css/images/c-dog-8_cleanup.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div id="carousel-item2" class="carousel-item" data-bs-interval="5000">
+          <img src="css/images/c-dog-9_cleanup.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button><button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+    </div>
+  </section>
+
+
+
+  <section id="donate-front-page" class="donate-front-page">
+
+    <div class="container-fluid  donate-front-page">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  woman-dog">
+          <div id="woman-dog-heading">
+
+            <p class="woman-dog-heading ">
+              Street Animals Need our Protection.
+            </p>
+
+            <p class="woman-dog-paragraph ">
+              Help Them Today.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  woman-dog">
+          <div>
+
+            <img id="woman-dog-image" src="css\images\perfect-dog-woman.png" class="img-fluid  woman-dog-image"
+              alt="Responsive image">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  </section>
+
+
+
+  <section id="donate-front-page2" class="donate-front-page2">
+
+    <div class="container-fluid  donate-front-page2">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  woman-dog2">
+          <div id="woman-dog-heading2">
+
+            <p class="woman-dog-heading2 ">
+              Whenever You See a Homeless Pet, <br> Suffering for Food and Shelter
+            </p>
+            <a href="/authenticate-donate">
+
+              <div class="donate-button ">
+
+
+                Donate Pet
+
+                <i class="fa fa-heart"></i>
+              </div>
+            </a>
+
+            <p class="woman-dog-paragraph2 ">
+              Kindly Contact Us and Donate us. <br>
+              We Will Try to Provide Shelter and Food
+            </p>
+
+
+
+          </div>
+        </div>
+
+        <div id="woman-dog2" class="col-lg-6 col-md-12 col-sm-12 col-xs-12  woman-dog2">
+          <div>
+
+            <img id="woman-dog-image2" src="css/images/shelter-less-dog.jpg" class="img-fluid  woman-dog-image2"
+              alt="Responsive image">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section >
+
+  <!-- Footer -->
+  <footer style="margin-top: -3rem; padding-top: 0rem" class="text-center text-lg-start bg-light text-muted footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer-social">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block ">
+        <span class="logo-text">Get connected with me on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="social-logo">
+        <a href="https://www.facebook.com/profile.php?id=100067140832883" target="_blank" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/abhay_desire_yt/" target="_blank" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ab-ideas-9669711b5/" target="_blank" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Abdev1205" target="_blank" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="footer-content">
+      <div class="container text-center text-md-start mt-5 footer-content-start">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4 abhay">
+              <i class="fas fa-user-tie font-awesome-abhay"></i> Abhay Mishra
+            </h6>
+
+            <p class="stack">
+              Full Stack Mern Web Developer
+            </p>
+
+            <p>
+              <a href="#" target="_blank" style="text-decoration: none;" class="text-reset">About Me</a>
+            </p>
+
+            <p>
+              <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank"
+                style="text-decoration: none;" class="text-reset">Portfolio Website</a>
+            </p>
+
+            <p>
+              <a href="#" target="_blank" style="text-decoration: none;" class="text-reset">Resume</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" style="text-decoration: none;" class="text-reset">Portfolio Website</a>
+            </p>
+            <p>
+              <a href="#!" style="text-decoration: none;" class="text-reset">Make Pet Family</a>
+            </p>
+            <p>
+              <a href="#!" style="text-decoration: none;" class="text-reset">Coming Soon</a>
+            </p>
+            <p>
+              <a href="#!" style="text-decoration: none;" class="text-reset">Coming Soon</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                target="_blank" style="text-decoration: none;" class="text-reset">Wed Development Course</a>
+            </p>
+            <p>
+              <a href="https://stackoverflow.com/" target="_blank" style="text-decoration: none;"
+                class="text-reset">Rectify your error</a>
+            </p>
+            <p>
+              <a href="https://github.com/" target="_blank" style="text-decoration: none;"
+                class="text-reset">Programmers Community</a>
+            </p>
+            <p>
+              <a href="https://www.google.com/" target="_blank" style="text-decoration: none;" class="text-reset">Best
+                Source for programmer</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Korba Chattisgarh India 495452</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i><a
+                href="mailto:abhay.mishra2021@vitbhopal.ac.in?subject = Feedback&body = Message" target="_blank"
+                style="text-decoration: none; color:#7e7e7e;">My Email
+
+            </p>
+
+
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center footer-copyright p-4">
+      <span class="c">
+
+        © 2021 Copyright:
+      </span>
+      <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank" style="text-decoration: none;"
+        class="text-reset">Abhay Mishra</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    var preloader = document.getElementById("loading");
+
+    function render() {
+      preloader.style.display = 'none';
+    }
+  </script>
+  </script>
+</body>
+
+</html>

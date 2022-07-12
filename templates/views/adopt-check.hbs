@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Linking bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" />
+  <!-- linking simple css -->
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/media-query.css">
+
+
+
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+
+  <title>Make Pet Family</title>
+
+
+</head>
+
+
+<body onload="render()">
+  <div id="loading" style="position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('css/images/loader.gif')
+	 no-repeat center center;	
+	z-index: 99999;">
+
+  </div>
+
+  {{>navbar}}
+
+
+  <div id="Form-1" class="form_wrapper">
+    <div class="form_container">
+      <div class="title_container">
+        <h2 style="color: red; font-size: 3rem; font-weight: bold;
+    font-variant: small-caps;">Adopt</h2>
+        <p style="color: rgb(100, 74, 72); font-size: 1rem; font-weight: bold;
+    font-variant: small-caps; padding-left:0rem; padding-right:0rem;">"Saving one animal won’t change the world, <br>
+          but it will change the world for that one <strong style="font-size: 2rem; ">animal</strong> ."</p>
+      </div>
+      <div class="row clearfix">
+        <div class="">
+          <form action="/adopt-check" method="POST">
+             
+
+
+
+
+            
+            
+            
+
+            <div id="option-value">
+            <div style="" id="option-dog" class="form-group input_field">
+              <label style="font-size: 1rem;" for="exampleFormControlSelect1"> Please Reselect pet and its Breed</label>
+              <span style="padding-top: 1rem; margin-top:1rem;" ><i  aria-hidden="true" class="fa fa-dog"></i></span>
+              <select  style="padding-left: 2.3rem;" class="form-control" id="exampleFormControlSelect1 " name="pet">
+
+                <option >Dog ->  Labrador Retriever</option>
+                <option >Dog ->  German Shepherd</option>
+                <option >Dog ->  Golden Retriever</option>
+                <option >Dog ->  Dachshund</option>
+                <option >Dog -> Beagle</option>
+                <option >Dog -> Boxer</option>
+                <option >Dog -> Tibetan Mastiff</option>
+                <option >Dog -> Pug</option>
+                <option >Dog -> Rottweiler</option>
+                <option >Dog -> Doberman</option>
+                <option >Dog -> Pomeranian</option>
+                <option >Dog -> Indian Spitz</option>
+                <option >Cat -> Bengal</option>
+                <option >Cat -> Persian</option>
+                <option >Cat -> Siamese</option>
+                <option >Cat -> Indian Billi</option>
+                <option >Cat -> Bombay</option>
+                <option >Cat -> Himalayan</option>
+                <option >Cat -> Munchkin Cat</option>
+                <option >Cat -> Maine Coon</option>
+                <option >Cat -> Egyptian Mau</option>
+                <option >Bird -> Cockatiels</option>
+                <option >Bird -> Budgies</option>
+                <option >Bird -> Zebra Finches</option>
+                <option >Bird -> Dove</option>
+                <option >Bird -> Hyacinth Macaw</option>
+                <option >Bird -> Parrotlet</option>
+                <option >Rabbit -> Lion-Head Rabbit</option>
+                <option >Rabbit -> Balanc de Hotot</option>
+                <option >Rabbit -> English Lop</option>
+                <option >Rabbit -> Dutch Rabbit</option>
+                <option >Rabbit -> Satin</option>
+                <option >Rabbit ->Himalayan</option>
+                <option >Cattle -> Nari</option>
+                <option >Cattle -> Lakhimi</option>
+                <option >Cattle -> Malvi</option>
+                <option >Cattle -> Hariana</option>
+                <option >Cattle -> Shweta Kapila</option>
+                <option >Cattle -> Jersey</option>
+                <option >Fish -> Danios</option>
+                <option >Fish -> Guppy</option>
+                <option >Fish -> Dwarf Gourami</option>
+                <option >Fish -> Cherry Barb</option>
+                <option >Fish -> Betta</option>
+                <option >Fish -> <hr> Black Molly</option>
+                
+              </select>
+            </div>
+
+            
+
+
+
+
+
+
+
+            <input type="submit" class="button" style="color: black;" value="Check Availability" />
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+  <script>
+    var preloader = document.getElementById("loading");
+
+    function render() {
+      preloader.style.display = 'none';
+    }
+  </script>
+  </script>
+
+  
+      
+    
+
+  </script>
+
+
+
+</body>
+
+</html>

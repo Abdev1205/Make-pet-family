@@ -1,0 +1,276 @@
+@media screen and (max-width: 990px) {
+    #carouselExampleInterval{
+        margin-top: -1rem;
+        padding-top: 0rem;
+    } 
+    #stop-hover.navbar-nav li a:hover{
+        background-color: rgb(247, 155, 6);
+        
+    }
+
+    #stop-hover-port.navbar-nav li a:hover{
+        background-color: #808080;
+        
+    }
+    #nav-down-link{
+        margin-top: 1rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+    #hero-title{
+        font-size: 2.5rem;
+    }
+    #my-image{
+        text-align: center;
+        margin: auto;
+        padding-left: 2.8rem;
+        padding-bottom: 1.5rem;
+        width: 80%;
+    }
+    #hero-desc{
+        font-size: 1.5rem;
+    }
+
+    #dog-1st-image{
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        
+    }
+    #quote{
+        margin-top: -2rem;
+        margin-bottom: 0rem;
+        padding-top: 2rem;
+    }
+    #select-pet-responsive{
+        margin-top: 6rem;
+    } 
+    #woman-dog-image{
+        margin-top: 0rem;
+        text-align: center;
+        align-content: center;
+        
+    }
+    #donate-front-page{
+        text-align: center;
+        margin-top: 0rem;
+        width: 100%;
+        
+    }
+    #woman-dog-heading{
+        margin-top: 2rem;
+    }
+    #test-validation{
+        width: 80%;
+    }
+    #about h1{
+        font-size: 4rem;
+        margin-top: 1.5rem;
+    }
+    #about-card {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    #about-text{
+        font-size: 1rem;
+    }
+    #select{
+        font-size: 2rem;
+    }
+    #selected-card{
+        width: 18rem;
+        margin: auto;
+    }
+    #services h1{
+        margin: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    #select-adopt-heading{
+        font-size: 2rem;
+    }
+    #select{
+        font-size: 2rem;
+    }
+    #woman-dog2{
+        margin-top: 0rem;
+        margin-top: 2rem;
+        margin-right: 0rem;
+        margin-left: -0.5rem;
+        padding-left: 0rem;
+        float: right;
+        
+    }
+    #woman-dog-image2{
+        margin-top: 0rem;
+        margin-top: 2rem;
+        width: 100%;
+        
+        height: fit-content;
+       
+        
+    }
+    #Form-1{
+        margin-top: 10rem;
+    }
+    #donate-front-page2{
+        text-align: center;
+        margin-top: 0rem;
+        
+    }
+    #woman-dog-heading2{
+        margin-top: 2rem;
+    }
+    #marque{
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+        margin-top: 1.5rem;
+        margin-bottom: -6rem;
+  
+    }
+    #stop-hover-brand.brand a:hover{
+      /* font-size: 1.3rem;
+      
+      font-variant: small-caps;  */
+      background-color:  rgb(247, 155, 6);
+      padding-bottom: 0rem;
+  }
+  #stop-hover-port-brand.brand a:hover{
+    /* font-size: 1.3rem;
+    
+    font-variant: small-caps;  */
+    background-color: #808080;
+}
+  }
+
+/* @media screen and (min-width: 500px) {
+    #carouselExampleInterval{
+        
+        width: 100%;
+        
+        
+    } 
+    #motivation-thought{
+       padding-top: 3rem;
+       
+       
+       background-repeat: no-repeat;
+       
+    width: auto;
+    background: url('https://thumbs.dreamstime.com/b/simple-green-nature-blured-gradient-background-summer-design-fresh-95205611.jpg');
+    background-size:cover;
+    background-position: center;
+    position:relative;
+    
+    }
+    #carousel-item2{
+        align-self: center;
+        width: 50%;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #carousel-inner2 img {
+        margin: auto;
+      }
+      #carousel-item2 img{
+        padding-left: 2rem;
+      }
+
+    
+
+      
+    
+    
+} */
+
+
+@media screen and (min-width: 500px) and (max-width:990px) {
+    #carouselExampleInterval{
+        
+        width: 100%;
+        
+        
+    } 
+    #motivation-thought{
+       padding-top: 2.5rem;
+       
+       
+       /* background-repeat: no-repeat;
+       
+    width: auto;
+    background: url('https://thumbs.dreamstime.com/b/simple-green-nature-blured-gradient-background-summer-design-fresh-95205611.jpg');
+    background-size:cover;
+    background-position: center;
+    position:relative;
+     */
+    }
+   
+    #carousel-inner2 img {
+        height: 650px;
+      }
+      #carousel-item2 img{
+        /* padding-left: 20rem;
+        padding-right: 20rem; */
+        text-align: center;
+      }
+
+    
+
+      
+    
+    
+}
+
+@media screen and (min-width: 991px) and (max-width:1840px) {
+    #carouselExampleInterval{
+        
+        width: 100%;
+        
+        
+    } 
+    #motivation-thought{
+       padding-top: 3rem;
+       
+       
+       /* background-repeat: no-repeat;
+       
+    width: auto;
+    background: url('https://thumbs.dreamstime.com/b/simple-green-nature-blured-gradient-background-summer-design-fresh-95205611.jpg');
+    background-size:cover;
+    background-position: center;
+    position:relative;
+     */
+    }
+    
+    #carousel-inner2 img {
+        height: 750px;
+      }
+      #carousel-item2 img{
+        /* padding-left: 20rem;
+        padding-right: 20rem; */
+        text-align: center;
+      }
+
+    
+
+      
+    
+    
+}
+
+/* @media screen and (max-width: 1000px) {
+    #shelterless-dog h1 p{
+        text-align: center;
+        margin: auto;
+        font-size: 10rem;
+        
+    }
+    #shelterless-dog-image image{
+        width: 70rem;
+
+    }
+    
+  } */

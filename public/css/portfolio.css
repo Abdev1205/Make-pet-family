@@ -1,0 +1,299 @@
+
+
+/* hero background image */
+.my-main-page {
+    height:100vh;
+    width: auto;
+    background: url('images/no_change_back.jpg');
+    
+    background-size:cover;
+    background-position: center;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 1rem;
+}
+.hero_desc {
+    font-size: 3vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 254, 254);
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+#services{
+    margin-top: 2rem;
+    
+}
+/* about section image css */
+.imageAboutPage {
+    width: 50%;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    padding-left: 0rem;
+    text-align: center;
+}
+.about-content{
+    padding-left: 5rem;
+    
+}
+#about{
+    margin-top: -1.6rem;
+    background-color: rgb(243, 222, 240);
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+body{
+    font-family: 'Arvo', serif;
+}
+#home{
+    font-family: 'Arvo', serif;  
+}
+
+.navbar{
+    
+    background-color: rgb(132, 134, 136);
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    
+}
+.nav-container{
+    padding-left: 0rem;
+}
+.navbar-brand{
+    
+    font-family: 'Arvo', serif;
+    font-weight: 900;
+    font-variant: small-caps;
+    
+    /* margin-top: 2rem; */
+    
+    /* padding-top: -20rem;
+    padding-bottom: 0rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.30rem;
+    padding-bottom: 1.32rem;
+    
+    
+    list-style: none;
+    
+    
+    
+}
+.brand a{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.brand a:hover{
+    /* font-size: 1.3rem;
+    
+    font-variant: small-caps;  */
+    background-color: rgb(242, 234, 8);
+}
+
+.navbar-nav{
+    color: rgb(255, 252, 240);
+    font-family: 'Arvo', serif;
+    float: right;
+    padding-top: 0.5rem;
+    margin-bottom: -2rem;
+    margin-top: -1rem;
+    
+}
+    
+    
+.nav-item.nav-down-link{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.nav-item{
+    font-size: large;
+    padding-bottom: -2rem;
+    margin-bottom: -0.5rem;
+    
+    
+    
+    
+}
+.nav-link{
+    
+    font-size:large;
+    font-family: 'Arvo', serif;
+    
+    float: right;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.navbar-nav li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(242, 234, 8);
+    
+    /* padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    margin-top: 0rem;
+    float: right; */
+    font-weight: bold;
+    font-variant: small-caps;
+  
+    
+}
+.donate-button {
+    backface-visibility: hidden;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #eb0000;
+  border-radius: 500px;
+  border: 0px solid #444;
+  border-width: 0px 0px 0px 0px;
+  padding: 8px 20px 8px 50px;
+    color: #fff;
+  font-size: 15px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+  .donate-button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 4px
+  }
+  .donate-button > i {
+    color: #e21;
+  font-size: 1em;
+  background: #fff;
+  border-radius: 100px;
+  border: 4px solid #fb0004;
+  border-width: 4px 4px 4px 4px;
+  padding: 11px 12px 11px 12px;
+  margin: 6px 6px 6px 6px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  bottom: -10px
+  }
+  .donate-button > .ld {
+    font-size: initial
+  }
+
+
+  .normal-button {
+    backface-visibility: hidden;
+    margin-left: 2.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #eb0000;
+  border-radius: 500px;
+  border: 0px solid #444;
+  border-width: 0px 0px 0px 0px;
+  padding: 8px 20px 8px 50px;
+    color: #fff;
+  font-size: 15px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+  .normal-button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 4px
+  }
+  .normal-button > i {
+    color: #e21;
+  font-size: 1em;
+  background: #fff;
+  border-radius: 100px;
+  border: 4px solid #fb0004;
+  border-width: 4px 4px 4px 4px;
+  padding: 11px 12px 11px 12px;
+  margin: 6px 6px 6px 6px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  bottom: -10px
+  }
+  .normal-button > .ld {
+    font-size: initial
+  }

@@ -1,0 +1,51 @@
+.footer-social{
+    background-color: rgb(5, 5, 99);
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.footer-content{
+    background-color: black;
+    margin-top: -3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.logo-text{
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.footer-copyright{
+    background-color: rgb(71, 74, 74);
+    color: #ffffff;
+}
+.c{
+    color: #ffffff;
+}
+.footer-content-start{
+    margin-top: -4rem;
+}
+.font-awesome-abhay{
+    padding-right: 0.5rem;
+    font-size: 2rem;
+    font-variant: small-caps;
+    font-family: 'Arvo', serif;
+    
+}
+.abhay {
+    font-size: 1.3rem;
+    color: rgb(250, 236, 236);
+    opacity: 50%;
+    font-weight: 100;
+}
+.stack{
+    font-size: 1rem;
+}
+.social-logo{
+    font-size: 1.8rem;
+}
+.fab {
+    color: #ffffff;
+}
+.fa-facebook-f:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover,.fa-github:hover{
+    color: #f8d405;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Linking bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" />
+  <!-- linking simple css -->
+  <link rel="stylesheet" href="css/footer.css">
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Make Pet Family</title>
+
+  
+</head>
+
+
+<body onload="render()">
+  <div id="loading" style="position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('css/images/loader.gif')
+	 no-repeat center center;	
+	z-index: 99999;">
+
+  </div>
+  
+  {{>navbar}}
+
+  <!-- adopt -->
+  <section id="adopt">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 quote">
+          <h2>Make your house a home, adopt a pet</h2>
+          <h2>Can you ignore those cute sad eyes? </h2>
+
+          <div class="text-center">
+              
+
+            <img src="css/images/allpet.jpg" class="img-fluid mx-auto" alt="Responsive image">
+
+          </div>
+
+          <div>
+            <h2> Adopt a Forever Friend today!</h2>
+            <h2>Let’s spread love, Adopt Pets</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="select-adopt">Select Pet To Adopt</h2>
+    </div>
+
+    <div class="container-fluid adopt-container ">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="card adopt-card" style="width: 18rem;">
+            <img class="card-img-top" src="css/images/my-lab.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dog</h5>
+              <p class="card-text">“A dog is the only thing on earth that loves you more than he loves himself.”</p>
+              <a href="css/images/dog.html" class="btn btn-lg btn-primary ">Make your Pet</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="card adopt-card" style="width: 18rem;">
+            <img class="card-img-top my-cat" src="css/images/my-cat.webp" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Cat</h5>
+              <p class="card-text">" Time spent with cats is never wasted."</p>
+              <a href="cat.html" class="btn btn-lg btn-primary ">Make your Pet</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="card adopt-card" style="width: 18rem;">
+            <img class="card-img-top bird" src="css/images/bird1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Bird</h5>
+              <p class="card-text">" The presence of a single bird can change everything for one who appreciates them."
+              </p>
+              <a href="bird.html" class="btn btn-lg btn-primary ">Make your Pet</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="card adopt-card" style="width: 18rem;">
+            <img class="card-img-top rabbit" src="css/images/my-rabbit.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Rabbit</h5>
+              <p class="card-text">“A rabbit's foot may bring good luck to you "</p>
+              <a href="rabbit.html" class="btn btn-lg btn-primary ">Make your Pet</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="card adopt-card" style="width: 18rem;">
+            <img class="card-img-top cow" src="css/images/my-cattle.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Cattle</h5>
+              <p class="card-text">"Cow is treated as the highest and most pious animal for Hindus."</p>
+              <a href="cattle.html" class="btn btn-lg btn-primary ">Make your Pet</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="card adopt-card" style="width: 18rem;">
+            <img class="card-img-top fish" src="css/images/my-fish.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Fish</h5>
+              <p class="card-text">"Fish symbolizes patience, and it teaches us to stay calmer during challenging
+                situations."</p>
+              <a href="fish.html" class="btn btn-lg btn-primary ">Make your Pet</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted footer">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer-social"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block ">
+      <span class="logo-text">Get connected with me on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="social-logo">
+      <a href="https://www.facebook.com/profile.php?id=100067140832883" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      
+      <a href="https://www.instagram.com/abhay_desire_yt/" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ab-ideas-9669711b5/"  target="_blank"class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Abdev1205" target="_blank"class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="footer-content">
+    <div class="container text-center text-md-start mt-5 footer-content-start">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4 abhay">
+            <i class="fas fa-user-tie font-awesome-abhay"></i> Abhay Mishra
+          </h6>
+          
+          <p class="stack">
+            Full Stack Mern Web Developer
+          </p>
+
+          <p>
+            <a href="#" target="_blank" style="text-decoration: none;" class="text-reset">About Me</a>
+          </p>
+
+          <p>
+            <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank" style="text-decoration: none;" class="text-reset">Portfolio Website</a>
+          </p>
+
+          <p>
+            <a href="#" target="_blank" style="text-decoration: none;" class="text-reset">Resume</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Projects
+          </h6>
+          <p>
+            <a href="#!" style="text-decoration: none;" class="text-reset">Portfolio Website</a>
+          </p>
+          <p>
+            <a href="#!" style="text-decoration: none;" class="text-reset">Make Pet Family</a>
+          </p>
+          <p>
+            <a href="#!" style="text-decoration: none;" class="text-reset">Coming Soon</a>
+          </p>
+          <p>
+            <a href="#!" style="text-decoration: none;" class="text-reset">Coming Soon</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links 
+          </h6>
+          <p>
+            <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" target="_blank" style="text-decoration: none;" class="text-reset">Wed Development Course</a>
+          </p>
+          <p>
+            <a href="https://stackoverflow.com/" target="_blank" style="text-decoration: none;" class="text-reset">Rectify your error</a>
+          </p>
+          <p>
+            <a href="https://github.com/" target="_blank" style="text-decoration: none;" class="text-reset">Programmers Community</a>
+          </p>
+          <p>
+            <a href="https://www.google.com/" target="_blank" style="text-decoration: none;"  class="text-reset">Best Source for programmer</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Korba Chattisgarh India 495452</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i><a href = "mailto:abhay.mishra2021@vitbhopal.ac.in?subject = Feedback&body = Message" target="_blank" style="text-decoration: none; color:#7e7e7e;">My Email
+            
+          </p>
+          
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div  class="text-center footer-copyright p-4">
+    <span class="c">
+
+    © 2021 Copyright:
+    </span>
+     <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank" style="text-decoration: none;" class="text-reset">Abhay Mishra</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+   
+<script>
+    var preloader = document.getElementById("loading");
+
+    function render() {
+      preloader.style.display = 'none';
+    }
+  </script>
+</script>
+</body>
+</html>

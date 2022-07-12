@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Linking bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Animate -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" />
+  <!-- linking simple css -->
+  <link rel="stylesheet" href="css/reg.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+
+  <title>Make Pet Family</title>
+
+  
+</head>
+
+
+<body onload="render()">
+  <div id="loading" style="position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('css/images/loader.gif')
+	 no-repeat center center;	
+	z-index: 99999;">
+
+  </div>
+  
+  {{>navbar}}
+
+  <!-- top moving text  -->
+  <div class="up-move-text">
+    <h1  id="marque" class="side-move-text "><span id="side-important">
+       
+    </span id="side-moving-text ">
+      <marquee direction=”left” ><p> 
+        Due to Less Seller of pet, We are Having Limited pets Available.
+        And if your preferred Pets is not Available then we are extremely 
+        sorry but We will try our best to provide your preferred pet. Thank You For Visiting to our website</p>
+      </marquee>
+
+    </span>
+  </div>
+
+  
+<!-- code start from here  -->
+<div id="select-pet-responsive">
+
+
+    <div>
+        <h2 class="select-adopt">Select Dog Breed To Buy</h2>  
+    </div>
+
+    <div class="container-fluid adopt-container ">
+        <div class="row">
+          
+          <div id="dog1" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 " data-aos="fade-up"
+    data-aos-offset="100"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top" src="css/images/lab.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Labrador Retriever</h5>
+                <p class="card-text">
+                    <ul class="dog-list">
+                        <li>
+                            The Labrador Retriever is one of the most preferred choices for Indians.
+                        </li>
+
+                        <li>
+                            They are smart and loving and make a great family dog.
+                        </li>
+                    </ul>
+                     </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top cat" src="css/images/german-shephard.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">German Shepherd</h5>
+                <p class="card-text">
+                    <ul class="dog-list">
+                        <li>
+                            German shepherds as breeds are considered to be one of the most intelligent.
+                        </li>
+
+                        <li>
+                            They are mostly used as guard dogs and for police and military work.
+                        </li>
+                    </ul>  
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top" src="css/images/golden-retriever.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Golden Retriever</h5>
+                <p class="card-text">
+                    <ul class="dog-list">
+                        <li>
+                            Golden Retrievers are easy to train.
+                        </li>
+
+                        <li>
+                            They have a very pleasing demeanour. 
+                        </li>
+
+                        <li>
+                            They are suitable as family dogs. 
+                        </li>
+                    </ul>  
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top dachshund" src="css/images/dachshund.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Dachshund</h5>
+                <p class="card-text">
+                    <ul class="dog-list">
+                        <li>
+                            This breed of dog can be found in various sizes and colours.
+                        </li>
+
+                        <li>
+                            They are among the most preferred dogs in the Indian household because of their unique look.
+                        </li>
+
+                        <li>They are short-legged and have long tails. 
+                        </li>
+                    </ul>    
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top beagle" src="css/images/beagle.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Beagle</h5>
+                <p class="card-text">
+                <ul class="dog-list">
+                    <li>
+                        Beagles are known for being good with kids.
+                    </li>
+
+                    <li>
+                        They are fun-loving and energetic.
+                    </li>
+
+                    <li>This makes them great family dogs. 
+                    </li>
+                </ul>       
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top boxer" src="css/images/boxer.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Boxer</h5>
+                <p class="card-text">
+
+                    <ul class="dog-list">
+                        <li>
+                            Boxer is known as a high-energy dog. Known for their strength and agility.
+                        </li>
+    
+                        <li>
+                            Boxers are good watchdogs for families.
+                        </li>
+    
+                        <li>They respond aggressively to anything that threatens their loved ones. 
+                        </li>
+                    </ul>  
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top" src="css/images/Tibetan-Mastiff.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Tibetan Mastiff</h5>
+                <p class="card-text">
+                    <ul class="dog-list">
+                        <li>
+                            This is an ancient dog breed originating from Tibet.
+                        </li>
+
+                        <li>
+                            They are affectionate towards family and show territorial aggression towards strangers.
+                        </li>
+                    </ul>
+                     </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top cat" src="css/images/pug.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Pug</h5>
+                <p class="card-text">
+                    <ul class="dog-list">
+                        <li>
+                            Known for its peculiar physical features, this breed of dog is one of the most likeable dogs in India.
+                        </li>
+
+                        <li>
+                            It is playful and affectionate with children.
+                        </li>
+                    </ul>  
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top" src="css/images/rottweiler.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Rottweiler</h5>
+                <p class="card-text">
+                    <ul class="dog-list">
+                        <li>
+                            Intelligent, loyal and strong are the words used to describe this breed of dogs.
+                        </li>
+
+                        <li>
+                            Rottweilers are good guard dogs. 
+                        </li>
+
+                        <li>
+                            They are mostly used for police and military work. 
+                        </li>
+                    </ul>  
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top dachshund" src="css/images/doberman.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Doberman</h5>
+                <p class="card-text">
+                    <ul class="dog-list">
+                        <li>
+                            This breed of dog is known for its agility, speed and intelligence. 
+                        </li>
+
+                        <li>
+                            Once trained, they can be really socially-oriented and loving.
+                        </li>
+
+                        
+                    </ul>    
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top beagle" src="css/images/pomeranian.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Pomeranian</h5>
+                <p class="card-text">
+                <ul class="dog-list">
+                    <li>
+                        Active and playful.
+                    </li>
+
+                    <li>
+                        Pomeranians are the best companion for kids.
+                    </li>
+
+                    <li>Because of their active nature, they are used as watchdogs too. 
+                    </li>
+                </ul>       
+                </p>
+               <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos="fade-up"
+    data-aos-offset="200"
+    
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+            <div class="card adopt-card" style="width: 18rem;">
+              <img class="card-img-top boxer" src="css/images/indian-spitz.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title dog-card-title">Indian Spitz</h5>
+                <p class="card-text">
+
+                    <ul class="dog-list">
+                        <li>
+                            This is one of the most intelligent dog breeds in India.
+                        </li>
+    
+                        <li>
+                            It is very attractive and makes an ideal pet for Indian families.
+                        </li>
+    
+                        
+                    </ul>  
+                </p>
+                <a  href="adopt-check">
+
+                <div class="normal-button text-center">
+
+
+                  Make Your pet
+
+                  <i class="fa fa-dog"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+</div>
+      <!-- Adding more pet -->
+      <div class="adding-pet">
+        <span><img src="css/images/gear-loader.gif" alt="" srcset=""></span>
+        
+        <h3 class="adding-pet-heading">Adding More Pet <span class="adding-pet-dot"><img src="css/images/black-dot.gif" alt="" srcset=""></span></h3>
+        
+
+    </div>
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted footer">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer-social"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block ">
+      <span class="logo-text">Get connected with me on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="social-logo">
+      <a href="https://www.facebook.com/profile.php?id=100067140832883" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      
+      <a href="https://www.instagram.com/abhay_desire_yt/" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ab-ideas-9669711b5/"  target="_blank"class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Abdev1205" target="_blank"class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="footer-content">
+    <div class="container text-center text-md-start mt-5 footer-content-start">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4 abhay">
+            <i class="fas fa-user-tie font-awesome-abhay"></i> Abhay Mishra
+          </h6>
+          
+          <p class="stack">
+            Full Stack Mern Web Developer
+          </p>
+
+          <p>
+            <a href="#" target="_blank" style="text-decoration: none;" class="text-reset">About Me</a>
+          </p>
+
+          <p>
+            <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank" style="text-decoration: none;" class="text-reset">Portfolio Website</a>
+          </p>
+
+          <p>
+            <a href="#" target="_blank" style="text-decoration: none;" class="text-reset">Resume</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" style="text-decoration: none;" class="text-reset">Portfolio Website</a>
+          </p>
+          <p>
+            <a href="#!" style="text-decoration: none;" class="text-reset">Make Pet Family</a>
+          </p>
+          <p>
+            <a href="#!" style="text-decoration: none;" class="text-reset">Coming Soon</a>
+          </p>
+          <p>
+            <a href="#!" style="text-decoration: none;" class="text-reset">Coming Soon</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links 
+          </h6>
+          <p>
+            <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" target="_blank" style="text-decoration: none;" class="text-reset">Wed Development Course</a>
+          </p>
+          <p>
+            <a href="https://stackoverflow.com/" target="_blank" style="text-decoration: none;" class="text-reset">Rectify your error</a>
+          </p>
+          <p>
+            <a href="https://github.com/" target="_blank" style="text-decoration: none;" class="text-reset">Programmers Community</a>
+          </p>
+          <p>
+            <a href="https://www.google.com/" target="_blank" style="text-decoration: none;"  class="text-reset">Best Source for programmer</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Korba Chattisgarh India 495452</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i><a href = "mailto:abhay.mishra2021@vitbhopal.ac.in?subject = Feedback&body = Message" target="_blank" style="text-decoration: none; color:#7e7e7e;">My Email
+            
+          </p>
+          
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div  class="text-center footer-copyright p-4">
+    <span class="c">
+
+    © 2021 Copyright:
+    </span>
+     <a href="https://abhay1205mishra.github.io/devab.github.io/" target="_blank" style="text-decoration: none;" class="text-reset">Abhay Mishra</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+   
+<script>
+    var preloader = document.getElementById("loading");
+
+    function render() {
+      preloader.style.display = 'none';
+    }
+  </script>
+</script>
+
+
+</body>
+</html>

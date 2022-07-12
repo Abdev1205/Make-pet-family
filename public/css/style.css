@@ -1,0 +1,609 @@
+body{
+    font-family: 'Arvo', serif;
+}
+#home{
+    font-family: 'Arvo', serif;  
+}
+
+.nav-container{
+    padding-left: 0rem;
+}
+.navbar{
+    
+    background-color: rgb(247, 155, 6);
+    color: black;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.navbar-brand{
+    
+    font-family: 'Arvo', serif;
+    font-weight: 900;
+    font-variant: small-caps;
+    
+    /* margin-top: 2rem; */
+    
+    /* padding-top: -20rem;
+    padding-bottom: 0rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.30rem;
+    padding-bottom: 1.32rem;
+    
+    
+    list-style: none;
+    
+    
+    
+}
+.brand a:hover{
+    /* font-size: 1.3rem;
+    
+    font-variant: small-caps;  */
+    background-color: rgb(242, 234, 8);
+}
+
+.navbar-nav{
+    color: rgb(255, 252, 240);
+    font-family: 'Arvo', serif;
+    float: right;
+    margin-top: -0.5rem;
+    
+}
+    
+    
+
+
+
+.nav-item{
+    font-size: large;
+    
+    color: rgb(249, 248, 248);
+    
+    
+}
+.nav-link{
+    color: rgb(255, 252, 240);
+    font-size:large;
+    font-family: 'Arvo', serif;
+    
+    float: right;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+}
+/* .navbar-toggler{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    
+
+} */
+.dog-1st-image{
+    margin-top: 10rem;
+    text-align: center;
+    
+    
+    
+}
+
+
+.navbar-nav li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(242, 234, 8);
+    
+    /* padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    margin-top: 0rem;
+    float: right; */
+    font-weight: bold;
+    font-variant: small-caps;
+  
+    
+}
+.dropdown-menu{
+    background-color: rgb(247, 155, 6);
+    
+}
+.dropdown-divider{
+    background-color: #fff;
+}
+
+.quote{
+    background-color: rgb(192, 172, 138);
+    margin-top: 2rem; 
+    padding-top: 1rem; 
+    
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 3vw;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    
+}
+.img-2{
+    margin-top: 6rem;
+}
+
+
+.adopt-card{
+    
+    margin: auto;
+    margin-bottom: 5rem;
+
+    
+    
+}
+.select-adopt{
+    margin-top: 0rem;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(129, 79, 10);
+    
+}
+
+.my-cat{
+    width: 100%;
+    height: 210px;
+}
+.bird{
+    width: 100%;
+    height: 210px;
+}
+.cow{
+    width: 100%;
+    height: 210px;
+    
+}
+.fish{
+    width: 100%;
+    height: 210px;
+    
+}
+.rabbit{
+    width: 100%;
+    height: 200px;
+    
+}
+/* .btn{
+    background-color: rgb(164, 118, 18);
+}
+.btn:hover{
+    background-color: rgb(16, 124, 38);
+} */
+.dog-card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.dachshund{
+    width: 100%;
+}
+.beagle{
+    width: 100%; 
+}
+.boxer{
+    width: 100%;
+}
+.btn-dog-adoption{
+    margin-left: 2.5rem;
+}
+.nari{
+    width: 100%;
+    height: 200px;
+}
+.malvi{
+    width: 101%;
+    height: 209px;
+}
+
+/* loading css */
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('css/images/loader.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+
+/* adding-pet */
+
+.adding-pet{
+    text-align: center;
+    
+
+    
+    
+}
+.adding-pet-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+}
+
+/* adopt lab css  */
+
+.adopt-image{
+    text-align: center;
+    margin-top: 10rem;
+    size: 20rem;
+    
+}
+
+
+.adopt-header{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.up-move-text{
+    margin-top: 0rem;
+}
+
+
+
+.top-moving-header{
+    text-align: center;
+}
+.side-move-text{
+    border: 1px;
+    border-style: solid;
+    border-left: 1px;
+    background-color: rgb(214, 25, 22);
+    font-size: 1rem;
+    padding-top: 4.9rem;
+    /* padding-top: 3rem;
+    padding-bottom: -3rem; */
+    
+    
+    color: aliceblue;
+    
+}
+
+#scrollToTopBtn {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    color: rgb(255, 201, 4);
+    cursor: pointer;
+    font-size: 48px;
+    line-height: 68px;
+    width: 48px;
+  }
+.scroll-top{
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    
+}
+.scroll-top h1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: 'Arvo', serif;  
+
+}
+.scroll-top h4{
+    font-size: 1rem;
+
+}
+.donate-front-page{
+    background-color: rgb(233, 201, 113);
+    margin: auto;
+    margin-bottom: 0rem;
+    
+  
+
+
+}
+.woman-dog img {  
+    margin-top: 6rem; 
+    
+    
+    float: right;
+} 
+.woman-dog-image{
+   
+   width: 80rem;
+   margin-left: 0rem;
+   margin-right: 0rem;
+   margin-bottom: 10rem;
+   padding-left: 2rem;
+   padding-bottom: rem;
+   margin-bottom: 0rem;
+} 
+
+.woman-dog-heading{
+    font-variant: small-caps;
+    font-family: 'Arvo', serif; 
+    font-size: 3rem;
+    margin: auto;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    color: rgb(252, 8, 8);
+}
+   
+.woman-dog-paragraph{
+    font-variant: small-caps;
+    font-family: 'Arvo', serif; 
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+    
+
+}
+
+#motivation-thought{
+    /* width: 100%; */
+    /* height: 40px; */
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    
+    
+}
+.shelterless-pet{
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background-color: sandybrown;
+}
+.shelterless-dog{
+    margin-left: 0rem;
+    padding-left: 0rem;
+    width: 45rem;
+    margin-right: 0rem;
+    padding-right: 0rem;
+    float: right;
+}
+#shelterless-dog{
+    margin-right: 0rem;
+    margin-left: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    
+    margin-top: 5rem;
+}
+#shelterless-dog-image{
+    float: right;
+    margin-right: -10rem;
+    padding-right: 0rem;
+}
+.shelterless-dog-heading {
+    font-variant: small-caps;
+    font-family: 'Arvo', serif; 
+    font-size: 2rem;
+    float: left;
+    color: rgb(252, 8, 8);
+    margin-bottom: 2rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.shelterless-dog-paragraph{
+    font-variant: small-caps;
+    font-family: 'Arvo', serif; 
+    font-size: 1.5rem;
+    float: left;
+    color: rgb(10, 10, 10); 
+}
+.donate-front-page2{
+    background-color: sandybrown;
+    margin: auto;
+    margin-bottom: 0rem;
+    
+  
+
+
+}
+.woman-dog-heading2{
+    font-variant: small-caps;
+    font-family: 'Arvo', serif; 
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: rgb(252, 8, 8);
+}
+   
+.woman-dog-paragraph2{
+    font-variant: small-caps;
+    font-family: 'Arvo', serif; 
+    margin: auto;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    
+
+}
+.woman-dog2{
+    padding-left: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+.woman-dog2 img {  
+    margin-top: 0rem;
+    /* padding-left: -2rem;
+    margin-left: -2rem;
+    margin-right: -0.75rem; 
+    padding-right: 0rem; */
+    
+    
+    float: right;
+} 
+.woman-dog-image2{
+    margin: auto;
+   
+   width: 100%;
+   height: 50vh;
+   margin-left: 0rem;
+   margin-right: -0.8rem;
+   margin-bottom: 0rem;
+   padding-left: 0rem;
+   padding-bottom: 0rem;
+   margin-bottom: 0rem;
+} 
+.donate-button {
+    backface-visibility: hidden;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #eb0000;
+  border-radius: 500px;
+  border: 0px solid #444;
+  border-width: 0px 0px 0px 0px;
+  padding: 8px 20px 8px 50px;
+    color: #fff;
+  font-size: 15px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+  .donate-button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 4px
+  }
+  .donate-button > i {
+    color: #e21;
+  font-size: 1em;
+  background: #fff;
+  border-radius: 100px;
+  border: 4px solid #fb0004;
+  border-width: 4px 4px 4px 4px;
+  padding: 11px 12px 11px 12px;
+  margin: 6px 6px 6px 6px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  bottom: -10px
+  }
+  .donate-button > .ld {
+    font-size: initial
+  }
+
+
+  .normal-button {
+    backface-visibility: hidden;
+    margin-left: 2.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #eb0000;
+  border-radius: 500px;
+  border: 0px solid #444;
+  border-width: 0px 0px 0px 0px;
+  padding: 8px 20px 8px 50px;
+    color: #fff;
+  font-size: 15px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+  .normal-button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 4px
+  }
+  .normal-button > i {
+    color: #e21;
+  font-size: 1em;
+  background: #fff;
+  border-radius: 100px;
+  border: 4px solid #fb0004;
+  border-width: 4px 4px 4px 4px;
+  padding: 11px 12px 11px 12px;
+  margin: 6px 6px 6px 6px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  bottom: -10px
+  }
+  .normal-button > .ld {
+    font-size: initial
+  }
+#select-pet{
+    background-color: rgb(246, 220, 228);
+    margin-top: 0rem;
+    
+}
+#select-pet-responsive{
+    background-color: rgb(246, 220, 228);
+    margin-top: -0.5rem;
+}
+#about h1{
+    margin-top: 5rem;
+    font-size: 5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: maroon;
+}
+.about-card{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    border-color: rgb(255, 20, 3);
+    background-color:rgba(255, 160, 122, 0.181);
+}
+.card-body{
+    color: rgb(0, 0, 0);
+}
+.about-card li{
+    color: rgb(17, 8, 99);
+    font-weight: bold;
+}
+#services{
+    margin-top: 5rem;
+    
+}
+#services h1{
+    
+    font-size: 5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: maroon;
+}
+.selected-card{
+    width: 30rem;
+}
+.select-adopt{
+    font-size: 3rem;
+    color: black;
+}
+
+
+
